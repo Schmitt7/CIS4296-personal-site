@@ -1,6 +1,15 @@
 html,
 body {
-    font-family: 'Merriweather Sans', sans-serif;
+    font-family: Monospace;
+    text-align: center;
+}
+
+.accordion-item{
+    text-align: center;
+}
+
+.accordion-button{
+    text-align: center;
 }
 
 .section {

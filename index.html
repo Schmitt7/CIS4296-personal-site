@@ -30,12 +30,12 @@
         .then((response) => response.json())
         .then(({ results }) => results[0])
         .then(({ name, picture }) => {
-          document.querySelector('#name').innerText = name.first
+          document.querySelector('#name').innerText = "Spencer"
           document.querySelector(
             '.navbar-brand'
-          ).innerText = `${name.first} ${name.last}`
-          document.title = `${name.first} ${name.last} Personal Site`
-          document.querySelector('#profilepic').src = picture.large
+          ).innerText = `${"Spencer"} ${"Schmitt"}`
+          document.title = `${"Spencer"} ${"Schmitt"} Personal Site`
+          document.querySelector('#profilepic').src = "images/Profile.jpg"
         })
     </script>
 
@@ -208,49 +208,33 @@
       </div>
       <div class="row mx-auto">
         <h5 class="h5 mx-auto text-opacity-75 text-primary text-center mb-4">
-          I've worked on some neat things.
+          I've worked on several cool projects:
         </h5>
       </div>
       <div class="row w-100">
-        <h5>Inspiro for Esperanza</h5>
+        <h5>Dating Website</h5>
       </div>
       <div class="row w-100 mb-4">
         <p class="text-justify">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce maximus
-          nisi in neque blandit auctor. Vestibulum pellentesque fringilla nulla
-          quis sagittis. Donec id erat sodales, fringilla est non, vestibulum
-          tellus. Suspendisse potenti. Fusce et dolor blandit, tincidunt eros
-          non, pharetra orci. Donec massa neque, suscipit at purus ac, cursus
-          tincidunt purus. Suspendisse imperdiet massa nec sem dictum luctus.
-          Vestibulum at porta lectus, sed faucibus libero.
+          A basic dating website similar to eHarmony or Tinder. Allows useres to create an account and search out
+          other users to like and set up dates.
         </p>
       </div>
       <div class="row w-100">
-        <h5>Work From Home Pinterest</h5>
+        <h5>Student Registration System</h5>
       </div>
       <div class="row w-100 mb-4">
         <p class="text-justify">
-          Vestibulum vulputate ullamcorper placerat. Fusce bibendum ligula non
-          ex dapibus finibus. Nulla facilisi. Integer eu libero lorem.
-          Pellentesque eget pretium ligula. Donec finibus nibh sed leo dapibus
-          imperdiet. Fusce cursus eu mi sed porttitor. Aliquam eget suscipit
-          dolor, ac mollis risus. Vestibulum commodo turpis nulla, bibendum
-          varius urna dictum porta.
+          Ability for a user to look through classes stored on external database and registar for them.
         </p>
       </div>
       <div class="row w-100">
-        <h5>Query Dating Site</h5>
+        <h5>Are you Smarter then A 5th Grader Game</h5>
       </div>
       <div class="row w-100">
         <p class="text-justify">
-          Fusce egestas lectus ac est porttitor congue. Mauris lacinia pharetra
-          odio ut egestas. Nullam facilisis condimentum consequat. Integer arcu
-          nibh, ullamcorper non fringilla quis, tempus sit amet turpis. Proin ac
-          gravida mi. Ut eros quam, pharetra venenatis pharetra at, porttitor
-          sit amet dolor. Ut et accumsan metus. Phasellus eros diam, tristique a
-          maximus vel, fringilla eu nisl. Pellentesque sed quam non urna dapibus
-          porta in in nibh. Phasellus lobortis nibh est, id pretium orci
-          efficitur at.
+          A windows form application that allows you to play a game of Are you smarter
+          than a 5th grader against another player.
         </p>
       </div>
       <div class="row mt-3 next">
@@ -344,7 +328,7 @@
       </div>
       <div class="row mx-auto">
         <h5 class="h5 mx-auto text-opacity-75 text-primary text-center">
-          I don't bite.
+          <a href="Extra.html">I don't bite.</a>
         </h5>
       </div>
       <div class="row my-4 contact-wrapper gap-3">
